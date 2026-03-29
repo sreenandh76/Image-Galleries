@@ -309,7 +309,7 @@ footer {
   
 }
 
-/* Align icons properly */
+
 .social-icons {
   display: flex;
   justify-content: center;
@@ -337,7 +337,7 @@ footer {
   cursor: pointer;
 }
 
-/* HOVER EFFECT 🔥 */
+
 .card:hover {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 15px 30px rgba(0,0,0,0.3);

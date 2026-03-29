@@ -91,7 +91,7 @@ function App(){
       {/* POPUP */}
       {popup && (
         <div className="popup" onClick={()=>setPopup(null)}>
-          <img src={popup} />
+          <img src={popup} alt="pop up image" />
         </div>
       )}
 <footer className="footer">
@@ -113,18 +113,18 @@ function App(){
 
     {/* Contact */}
     <div className="footer-section">
-      <h3>Contact</h3>
+<h3>Contact</h3>
       <p>+91 98765 43210</p>
-      <p>Chennai, India</p>
+  <p>Chennai, India</p>
     </div>
 
     {/* Social */}
     <div className="footer-section">
       <h3>Follow Us</h3>
       <div className="social-icons">
-        <i className="fab fa-instagram"></i>
-        <i className="fab fa-twitter"></i>
-        <i className="fab fa-facebook"></i>
+      <i className="fab fa-instagram"></i>
+  <i className="fab fa-twitter"></i>
+      <i className="fab fa-facebook"></i>
         <i className="fab fa-whatsapp"></i>
       </div>
     </div>
